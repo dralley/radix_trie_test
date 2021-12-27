@@ -1,0 +1,18 @@
+[package]
+name = "radix_trie_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+radix_trie = "0.2.1"
+
+
+[[bin]]
+name = "radix_test"
+path = "src/radix.rs"
+
+[[bin]]
+name = "vec_test"
+path = "src/vec.rs"
